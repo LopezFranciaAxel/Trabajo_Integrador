@@ -28,43 +28,6 @@ body {
     text-decoration: none;
 }
 
-  /* Bundesliga */
-.navbar .nav-link.bundesliga-link:hover {
-    background-color: rgba(255, 0, 0, 0.571);
-    color: #ffffff; /* Asegura que el texto siga siendo visible */
-}
-
-  /* Premier League */
-.navbar .nav-link.premier-link:hover {
-    background-color: #37003c;
-    color: #ffffff;
-}
-
-  /* Seria A */
-  .navbar .nav-link.serie-a-link:hover {
-    background-color: #1d125d;
-    color: #ffffff;
-}
-
-  /* La Liga */
-  .navbar .nav-link.la-liga-link:hover {
-    background-color: rgb(255, 75, 68);
-    color: #ffffff;
-}
-
-  /* Ligue 1*/
-  .navbar .nav-link.ligue1-link:hover {
-    background-color: #4600f7;
-    color: #ffffff;
-}
-
-  /* Eredivisie */
-  .navbar .nav-link.eredivisie-link:hover {
-    background-color: #f78c00;
-    color: #ffffff;
-}
-
-
 /* Estilo para el contenido principal */
 .container {
     margin: 2rem auto;
@@ -128,6 +91,56 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+    /* Estilo para la barra de navegación superior */
+    .navbar {
+        background-color: #37003c; /* Morado oscuro */
+    }
+    
+    /* Estilo para el texto dentro de la barra de navegación */
+    .navbar-dark .navbar-nav .nav-link {
+        color: #ffffff; /* Blanco */
+    }
+    
+    .navbar .nav-link {
+        color: #ffffff;
+        padding: 10px 15px;
+        transition: background-color 0.3s ease, color 0.3s ease;
+        border-radius: 5px; /* Bordes redondeados */
+    }
+    
+      /* Clubes */
+    .navbar .nav-link.premier-link:hover {
+        background-color: rgba(255, 0, 0, 0.571);
+        color: #ffffff; /* Asegura que el texto siga siendo visible */
+    }
+    
+      /* Resultados */
+      .navbar .nav-link.serie-a-link:hover {
+        background-color: #1d125d;
+        color: #ffffff;
+    }
+    
+    
+    .copa-premier {
+     height:450px;
+     width: 400px;
+    }
+    
+    .campeon-city {
+     height:400px;
+     width: 400px;
+    }
+    
+    .maximo-goleador {
+     height:400px;
+     width: 400px;
+    }
+    
+    .mayor-campeon{
+      height:400px;
+      width: 400px;
+    }
 
 /* Responsive design */
 @media (max-width: 768px) {
