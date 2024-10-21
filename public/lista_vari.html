@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipos de la Premier League</title>
+    <link rel="stylesheet" href="/css/estilos_listado_var.css"> <!-- Enlace al archivo de estilos -->
+</head>
+<body>
+
+    <h1>Equipos de la Premier League</h1>
+    <ul id="team-list"></ul>
+
+    <script src="/js/listado.js"></script>
+    <script>
+        // Imprimir la lista de equipos en el HTML
+        var listElement = document.getElementById('team-list');
+        for (var i = 0; i < equipos.length; i++) {
+            var listItem = document.createElement('li');
+            listItem.textContent = equipos[i];
+            listElement.appendChild(listItem);
+        }
+    </script>
+
+</body>
+</html>
