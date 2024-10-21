@@ -1,1 +1,99 @@
+{
+  "page": {
+    "title": "Premier League - Historia del Fútbol",
+    "header": {
+      "navbar": {
+        "brand": "Premier League",
+        "links": [
+          {
+            "name": "Clubes",
+            "url": "listado_de_equipos.html"
+          },
+          {
+            "name": "Resultados",
+            "url": "resultados.html"
+          }
+        ]
+      }
+    },
+    "content": {
+      "main_section": {
+        "title": "Historia de la Premier League",
+        "paragraphs": [
+          "La Premier League, también conocida como la Liga Inglesa de Fútbol, es una de las ligas de fútbol más prestigiosas y competitivas del mundo. Fue fundada en 1992, cuando los equipos de la First Division decidieron separarse de la Football League para formar una liga independiente.",
+          "Conocida por su intensidad y alto nivel de competencia, la Premier League ha visto a equipos como el Manchester United, el Liverpool y el Chelsea dominar la escena tanto a nivel nacional como internacional.",
+          {
+            "title": "Sistema de competición",
+            "details": [
+              "El sistema de competición es de liga, es decir, cada equipo enfrenta a todos los demás equipos dos veces, una vez en su estadio y otra en el estadio del equipo rival.",
+              "Los equipos ganan 3 puntos por partido ganado, 1 punto por partido empatado y 0 puntos por partido perdido."
+            ]
+          },
+          {
+            "title": "Promoción y relegación",
+            "details": [
+              "Los equipos que finalizan en los 3 primeros lugares clasifican a la Champions League.",
+              "Los equipos que finalizan en los 4 primeros lugares clasifican a la Europa League.",
+              "Los equipos que finalizan en los 3 últimos lugares son relegados a la EFL Championship."
+            ]
+          },
+          {
+            "title": "Calendario",
+            "details": [
+              "La temporada de la Premier League comienza en agosto y termina en mayo.",
+              "La temporada regular dura 38 partidos.",
+              "Los partidos se juegan los fines de semana, con algunas excepciones para partidos en Navidad y Año Nuevo."
+            ]
+          }
+        ]
+      },
+      "achievements_section": {
+        "title": "Logros y Curiosidades",
+        "accordion": [
+          {
+            "title": "Mejores Equipos",
+            "content": "El Manchester United es uno de los clubes más exitosos de la Premier League, con múltiples campeonatos de liga, Copas FA y victorias en la Liga de Campeones de la UEFA."
+          },
+          {
+            "title": "Máximos Goleadores",
+            "content": [
+              "Alan Shearer: 260 goles en 18 temporadas con Blackburn Rovers y Newcastle.",
+              "Harry Kane: 213 goles con Tottenham y Norwich.",
+              "Wayne Rooney: 208 goles con Everton y Manchester United."
+            ]
+          },
+          {
+            "title": "Formato",
+            "content": "La Premier League es jugada por 20 clubes en un formato de liga a dos vueltas, con un total de 38 partidos por equipo. Los 4 primeros clasifican a la UEFA Champions League, mientras que los últimos 3 son relegados."
+          }
+        ]
+      },
+      "additional_info": {
+        "title": "Más Información",
+        "cards": [
+          {
+            "title": "Máximo Campeón",
+            "image": "https://assets.manutd.com/AssetPicker/images/0/0/5/71/345920/201331508928477828_thumb.jpg",
+            "content": "El Manchester United ha ganado 13 títulos desde 1992."
+          },
+          {
+            "title": "Máximo Goleador",
+            "image": "https://imgs.search.brave.com/xhAfvOoE6DkKhLAgK7j_LLHbACIKgnIyK67W-Ysa61o/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cucGFzaW9uZnV0Ym9sLmNvbS9fX2V4cG9ydC8xNjMzNzg2MDYwMTkxL3NpdGVzL3Bhc2lvbmZ1dGJvbC9pbWcvMjAyMS8xMC8wOS9jdzV5Z2cwdmVhYTdzbnguanBnXzE4ODcxMTU3OC5qcGc",
+            "content": "Alan Shearer, con 260 goles en 441 partidos oficiales."
+          },
+          {
+            "title": "Actual Campeón",
+            "image": "https://www.lanacion.com.ar/resizer/v2/el-dominio-de-manchester-city-en-la-premier-DA2NC6GDHVBP7DRHNYTATF7FIU.JPG?auth=813647728d279853e587cb036f8d143272665e62ddc383177ef4eae1b21961cb&width=880&height=586&quality=70&smart=true",
+            "content": "Manchester City es el campeón actual con 91 puntos en la temporada 2023-2024."
+          },
+          {
+            "title": "Trofeo de la Premier League",
+            "image": "https://imgs.search.brave.com/7GUQTV7LH12f-m00cLoPBWnJ5ROgz6BsbxTxvPmvcQo/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG5iL...
+            "content": "El trofeo que se entrega al equipo ganador de la Premier League."
+          }
+        ]
+      }
+    }
+  }
+}
 
