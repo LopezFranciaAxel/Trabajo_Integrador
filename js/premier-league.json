@@ -73,22 +73,22 @@
         "cards": [
           {
             "title": "Máximo Campeón",
-            "image": "LopezFranciaAxel.github.io/Trabajo_Integrador/images/united.png",
+            "image": "https://LopezFranciaAxel.github.io/Trabajo_Integrador/images/united.png",
             "content": "El Manchester United ha ganado 13 títulos desde 1992."
           },
           {
             "title": "Máximo Goleador",
-            "image": "LopezFranciaAxel.github.io/Trabajo_Integrador/images/max_goles.png",
+            "image": "https://LopezFranciaAxel.github.io/Trabajo_Integrador/images/max_goles.png",
             "content": "Alan Shearer, con 260 goles en 441 partidos oficiales."
           },
           {
             "title": "Actual Campeón",
-            "image": "LopezFranciaAxel.github.io/Trabajo_Integrador/images/city.png",
+            "image": "https://LopezFranciaAxel.github.io/Trabajo_Integrador/images/city.png",
             "content": "Manchester City es el campeón actual con 91 puntos en la temporada 2023-2024."
           },
           {
             "title": "Trofeo de la Premier League",
-            "image": "LopezFranciaAxel.github.io/Trabajo_Integrador/images/copa_premier.png",
+            "image": "https://LopezFranciaAxel.github.io/Trabajo_Integrador/images/copa_premier.png",
             "content": "El trofeo que se entrega al equipo ganador de la Premier League."
           }
         ]
