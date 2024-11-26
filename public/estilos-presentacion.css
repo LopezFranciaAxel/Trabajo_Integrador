@@ -1,0 +1,167 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #1e3544; /* Verde */
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+header h2 {
+    font-size: 1.5rem;
+}
+
+/* Sección principal */
+section {
+    padding: 2rem 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section h3 {
+    font-size: 2rem;
+    color: #2C3E50;
+    margin-bottom: 1rem;
+}
+
+section p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    color: #555;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 1rem;
+}
+
+ul li strong {
+    font-weight: bold;
+    color: #2C3E50;
+}
+
+/* Botón de Continuar */
+a button {
+    background-color: #3498db; /* Azul */
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 2rem;
+}
+
+a button:hover {
+    background-color: #2980b9; /* Azul más oscuro */
+    transform: scale(1.1); /* Efecto de escala en hover */
+}
+
+/* Estilo para el acordeón (Logros y Curiosidades) */
+.accordion {
+    background-color: #f1f1f1;
+    color: #444;
+    cursor: pointer;
+    padding: 1rem;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+    transition: background-color 0.3s ease;
+}
+
+.accordion:hover {
+    background-color: #e1e1e1;
+}
+
+.accordion.active, .accordion:focus {
+    background-color: #d5d5d5;
+}
+
+.accordion + .panel {
+    padding: 0 1rem;
+    display: none;
+    background-color: #f9f9f9;
+}
+
+.panel p {
+    padding: 1rem 0;
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Estilos para las tarjetas de información adicional */
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.card h4 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.card p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Media Queries para hacer la página responsiva */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    section h3 {
+        font-size: 1.8rem;
+    }
+
+    a button {
+        font-size: 1rem;
+        padding: 0.8rem 1.5rem;
+    }
+
+    .card {
+        padding: 1rem;
+    }
+}
